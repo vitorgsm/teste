@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    display: flex;
+  
+}
+ div:nth-child(3){
+    background-color: blue ;
+    width: 300px;
+    height: 300px;
+    border-radius: 0% 60% ;
+    transform: translateY(80%);
+
+}
+  div:nth-child(2){
+    background-color: rgb(255, 0, 0) ;
+    width: 300px;
+    height: 300px;
+    border-radius: 10% 30% 50% 70%;
+    transform: rotate(60deg);
+
+}
+  div:nth-child(1){
+    background-color: rgb(76, 160, 2) ;
+    width: 300px;
+    height: 300px;
+    border-radius: 20% /60% ;
+    transform: skew(10deg,5deg);
+    
+
+}
+
+  div:nth-child(4){
+    background-color: rgb(219, 212, 0) ;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+  div:nth-child(5){
+    background-color: rgb(255, 255, 255) ;
+    width: 300px;
+    height: 300px;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+} 
